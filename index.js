@@ -26,7 +26,6 @@ router.get('/',notlogged,function (req,res) {
 
 
 router.get('/chat',iflogged,function (req,res) {
-   // res.sendFile(__dirname+'/public_static/chatapp.html');
     res.send("hello");
 })
 
